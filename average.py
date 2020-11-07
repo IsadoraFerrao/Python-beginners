@@ -4,7 +4,7 @@ def media_geral(nota_1, nota_2, nota_3):
     if(media_geral >= 7.0):
         print("Portanto, você foi aprovado")
     else:
-        print("Você foi reprovado")
+        print("Portanto, você foi reprovado")
 
 print(f"Qual nota você tirou no 1° trimestre?")
 nota_1 = input()
