@@ -7,7 +7,10 @@
 minha_lista = [num for num in range(1,11)]
 print(minha_lista)
 
-dobros =[]
-for num in minha_lista:
-    dobros.append(num*2)
+#dobros =[]
+#for num in minha_lista:
+#    dobros.append(num*2)
+#print(dobros)
+
+dobros = [num*2 for num in minha_lista]
 print(dobros)
