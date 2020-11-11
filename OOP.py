@@ -18,7 +18,7 @@ class Atores:
 
 class Big_Bang(Atores): #herdando os valores de atores
     pass
-
+ 
 act1 = Big_Bang("Rodrigo", 45, "masculino", "Brasileiro")
 act2 = Atores("Rodrigo Santoro", 45, "masculino", "Brasileiro")
 
