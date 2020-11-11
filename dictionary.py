@@ -9,4 +9,5 @@ funcionario['estavo_civil'] = 'solteiro' #add
 #para atualizar basta usar atribuicao
 
 for coisa in funcionario.items(): #mostra a lista
-    print(coisa)
+    print(f"{coisa} oi")
+    #print(coisa)
