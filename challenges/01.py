@@ -14,11 +14,11 @@ def checkio(number: int ) -> int:
 
 if __name__ == '__main__':
     print('Example:')
-    print(checkio(130))
+    print(checkio(123405))
         
     # These "asserts" using only for self-checking and not necessary for auto-testing
-    #assert checkio(123405) == 120
-    #assert checkio(999) == 729
-    #assert checkio(1000) == 1
-    #assert checkio(1111) == 1
-    #print('Terminou')
+    assert checkio(123405) == 120
+    assert checkio(999) == 729
+    assert checkio(1000) == 1
+    assert checkio(1111) == 1
+    print('Terminou')

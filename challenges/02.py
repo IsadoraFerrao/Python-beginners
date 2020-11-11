@@ -23,7 +23,7 @@ def second_index(text: str, symbol: str) -> [int, None]:
 # Não escreva nada abaixo dessa linha
 if __name__ == '__main__':
     print('Example:')
-    print(second_index("hi mr Mayor", " "))
+    print(second_index("find the river", "e"))
 
     # These "asserts" are used for self-checking and not for an auto-testing
     assert second_index("sims", "s") == 3, "First"

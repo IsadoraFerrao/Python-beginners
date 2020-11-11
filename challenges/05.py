@@ -7,9 +7,6 @@ def best_stock(data):
     maior_valor = max(data, key=data.get) #pegando a chave do maior valor
     return maior_valor
 
-
-
-
 if __name__ == '__main__':
     print("Example:")
     print(best_stock({
