@@ -16,7 +16,7 @@ class Atores:
     def actor_intro(self):
         return f"Hi, my name is {self.name} and I'm a {self.sexo}"
 
-class Big_Bang(Atores):
+class Big_Bang(Atores): #herdando os valores de atores
     pass
 
 act1 = Big_Bang("Rodrigo", 45, "masculino", "Brasileiro")
