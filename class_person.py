@@ -18,6 +18,8 @@ class Empresa(Pessoa): #herança
     def __init__(self, nome, idade, cidade, sexo, id, nome_empresa):
         super().__init__(nome, idade, cidade, sexo, id)
         self.nome_empresa = nome_empresa
+    def setores(self):
+        return self.nome_empresa
 
 pessoa = Pessoa("Deb", 10, "Natal","feminino", 25585)
 #print(pessoa.nome)
@@ -26,3 +28,5 @@ pessoa = Pessoa("Deb", 10, "Natal","feminino", 25585)
 
 empresa = Empresa("Deb", 32, "Natal", "Feminino", 3434, "Google")
 print(empresa.nome)
+
+print(empresa.setores())
