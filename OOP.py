@@ -6,7 +6,7 @@ class Atores:
         self.nacionalidade = nacionalidade
 
     def get_origin(self):
-        origens = {'american': 'from the U.S', 'brazilian': 'from Brazil', 'mexican':'from Maxico'}
+        origens = {'a0merican': 'from the U.S', 'brazilian': 'from Brazil', 'mexican':'from Maxico'}
         if self.nacionalidade.lower() in origens.keys():
             origin = origins[self.nacionalidade.lower()]
             return origin
