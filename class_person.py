@@ -15,11 +15,14 @@ class Pessoa:
         return f"A cidade é {self.cidade} e o estado é {estado}"
 
 class Empresa(Pessoa): #herança 
-    def __init__(self, nome, idade, cidade, sexo, id):
+    def __init__(self, nome, idade, cidade, sexo, id, nome_empresa):
         super().__init__(nome, idade, cidade, sexo, id)
+        self.nome_empresa = nome_empresa
 
 pessoa = Pessoa("Deb", 10, "Natal","feminino", 25585)
-print(pessoa.nome)
-print(pessoa.maioridade())
+#print(pessoa.nome)
+#print(pessoa.maioridade())
+#print(pessoa.estado("RN"))
 
-print(pessoa.estado("RN"))
+empresa = Empresa("Deb", 32, "Natal", "Feminino", 3434, "Google")
+print(empresa.nome)
